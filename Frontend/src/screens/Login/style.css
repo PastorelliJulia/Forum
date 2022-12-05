@@ -8,7 +8,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: rgb(108, 87, 128); 
+    background-color: rgb(37, 37, 37); 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -27,12 +27,13 @@ body > div {
 }
 
 p {
-    color: white;
+    color: #8a27a6;
 }
 
 ::placeholder { 
-    color: rgb(33, 7, 58); 
+    color: rgb(0, 0, 0); 
     opacity: .5;
+    font-weight: bold;
 }
 
 #title {
@@ -51,7 +52,7 @@ p {
     padding: 60px 50px;
     gap: 50px;
     
-    background: #ffffff6b;
+    background: #ffffffbe;
     border-radius: 10px;
     margin-left: 50px;
 }
@@ -61,22 +62,17 @@ p {
     padding: 15px;
     border: none;
     outline: none;
-    border-bottom: 3px solid rgb(33, 7, 58);
+    border-bottom: 3px solid #671b7d;
 }
 
 .form button {
     width: 400px;
-    color: #ffffff6b;
+    color: #ffffffa2;
     font-size: 24px;
     font-weight: bold;
     padding: 15px;
     border: none;
     outline: none;
     border-radius: 5px;
-    background-color: rgb(33, 7, 58); 
-}
-main{
-    width: 500px;
-    height: 500px;
-    background-color: aliceblue;
+    background-color: #671b7d; 
 }
